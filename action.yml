@@ -52,3 +52,4 @@ runs:
       env:
         OUTPUT_DIR: ${{ inputs.path || github.workspace }}
         GH_TOKEN: ${{ inputs.github-token || github.token }}
+      
